@@ -1,0 +1,77 @@
+mdb-carousel{
+height: 400px;
+}
+
+
+
+// body{
+//   margin: 0;
+//   padding: 0;
+//   background-color: #546de5;
+// }
+// .slidershow{
+//   width: 900px;
+//   height: 400px;
+//   overflow: hidden;
+// }
+
+// .midle{
+//   position: absolute;
+//   text-align: center;
+//   left:50%;
+//   top:50%;
+//   // margin-left: 20px;
+//   transform: translate(-50%,-50%);
+// }
+// .navigator{
+//   position: absolute;
+//   bottom: 20px;
+//   left:50%;
+//   transform: translateX(-50%);
+//   display: flex;
+// }
+// .bar{
+//   width: 50px;
+//   height: 10px;
+//   border: 2px solid #fff;
+//   margin: 6px;
+//   cursor: pointer;
+//   transition: 0.4s;
+// }
+
+// .bar:hover{
+//   background-color: #fff;
+// }
+
+// input[name="r"]{
+//   position: absolute;
+//   visibility: hidden;
+// }
+// .slides{
+//   width: 100%;
+//   height: 500%;
+//   display: flex;
+// }
+// .slide{
+//   width: 20%;
+//   transition: 0.6s;
+// }
+// .slide img{
+//   width: 900px;
+//   height: 400px;
+// }
+// #r1:checked ~ .s1{
+//   margin-top: 0%;
+// }
+// #r2:checked ~ .s1{
+//   margin-top: -44.3%;
+// }
+// #r3:checked ~ .s1{
+//   margin-top: -88.7%;
+// }
+// #r4:checked ~ .s1{
+//   margin-top: -133.3%;
+// }
+// #r5:checked ~ .s1{
+//   margin-top: -177.7%;
+// }
