@@ -1,0 +1,65 @@
+<div class="parent">
+<div class="card">
+  <div style="display: block" class="graphic ">
+    <div class="h4-responsive title">Succesful Level</div>
+    <canvas style="max-width: 500px;" mdbChart
+        [chartType]="chartType"
+        [datasets]="chartDatasets"
+        [labels]="chartLabels"
+        [colors]="chartColors"
+        [options]="chartOptions"
+        [legend]="false"
+        (chartHover)="chartHovered($event)"
+        (chartClick)="chartClicked($event)">
+    </canvas>
+  </div>
+  <div class="cardBody">
+    <hr class="line">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+
+<div class="card" >
+  <div style="display: block" class="graphic">
+    <div class="h4-responsive title">Lorem Level</div>
+    <canvas mdbChart
+        [chartType]="chartType1"
+        [datasets]="chartDatasets1"
+        [labels]="chartLabels"
+        [colors]="chartColors"
+        [options]="chartOptions"
+        [legend]="false"
+        (chartHover)="chartHovered($event)"
+        (chartClick)="chartClicked($event)">
+    </canvas>
+  </div>
+  <div class="cardBody">
+      <hr class="line">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+
+<div class="card" >
+  <div style="display: block" class="graphic">
+    <div class="h4-responsive title">Happy Level</div>
+    <canvas mdbChart
+        [chartType]="chartType2"
+        [datasets]="chartDatasets2"
+        [labels]="chartLabels"
+        [colors]="chartColors"
+        [options]="chartOptions"
+        [legend]="false"
+        (chartHover)="chartHovered($event)"
+        (chartClick)="chartClicked($event)"
+        >
+    </canvas>
+  </div>
+  <div class="cardBody">
+      <hr class="line">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+</div>
