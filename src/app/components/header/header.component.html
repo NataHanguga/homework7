@@ -1,0 +1,24 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
+  <mdb-navbar-brand>
+      <a href="#" class="navbar-brand">MenuGeek</a>
+  </mdb-navbar-brand>
+  <links>
+      <ul class="navbar-nav">
+          <li class="nav-item">
+              <a [routerLink]="['']" routerLinkActive="router-link-active"  class="nav-link waves-light" mdbWavesEffect>Home </a>
+          </li>
+          <li class="nav-item">
+              <a [routerLink]="['/slider']" routerLinkActive="router-link-active"  class="nav-link waves-light" mdbWavesEffect>Slider</a>
+          </li>
+          <li class="nav-item">
+              <a [routerLink]="['/cards']" routerLinkActive="router-link-active"  class="nav-link waves-light" mdbWavesEffect>Cards</a>
+          </li>
+          <li class="nav-item">
+              <a [routerLink]="['/charts']" routerLinkActive="router-link-active"  class="nav-link waves-light" mdbWavesEffect>Charts</a>
+          </li>
+          <li class="nav-item">
+              <a [routerLink]="['/table']" routerLinkActive="router-link-active"  class="nav-link waves-light" mdbWavesEffect>Table</a>
+          </li>
+      </ul>
+  </links>
+</mdb-navbar>
